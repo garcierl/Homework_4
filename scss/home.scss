@@ -1,0 +1,141 @@
+.hero-text {
+  align-items: center;
+
+  h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: PTSerif-Regular;
+    font-size: 40px;
+    color: white;
+  }
+  .hero-teal {
+    font-size: 20px;
+    font-family: Gill;
+    font-style: italic;
+    color: #3bceab;
+    text-align: center;
+  }
+
+  p {
+    width: 420px;
+    font-size: 20px;
+    font-family: Gill;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    margin-left: 420px;
+  }
+  .lorem {
+    padding-top: 25px;
+  }
+
+  button {
+    width: 121.62px;
+    height: 40.04px;
+    background-color: #3bceab;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 560px;
+    margin-top: 25px;
+    border-radius: 0px;
+    font-size: 15px;
+    font-family: Gill;
+  }
+}
+
+.paragraph {
+  width: 1280px;
+  height: 300px;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 75px;
+  margin-top: 75px;
+}
+.home-para {
+  width: 789px;
+  height: 90px;
+  text-align: left;
+  font-size: 15px;
+  font-family: "Gill";
+  color: #08ad69;
+  text-decoration: none;
+  font-style: italic;
+  margin-left: 200px;
+}
+
+.john {
+  font-size: 15px;
+  color: #3bceab;
+  font-family: PTSerif-Regular;
+  text-decoration: none;
+  margin-left: 200px;
+  margin-top: 45px;
+}
+
+.title-john {
+  font-size: 10px;
+  color: #a8a8a8;
+  font-family: PTSerif-Regular;
+  text-decoration: none;
+  margin-left: 200px;
+}
+
+.events {
+  width: 1280px;
+  min-height: 400px;
+  background-color: #540d6e;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .event-title {
+    height: 35px;
+    padding-left: 25px;
+    padding-top: 25px;
+    font-size: 25px;
+    font-family: "Gill";
+    color: white;
+    .border-bottom {
+      border-bottom: white solid 2px;
+      position: absolute;
+      width: 392px;
+      white-space: nowrap;
+    }
+  }
+
+  .dates {
+    align-items: center;
+    width: 1198px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    justify-content: space-between;
+
+    div {
+      width: 230px;
+      height: 80%;
+      position: relative;
+      p {
+        width: 140px;
+        height: 41px;
+        font-size: 15px;
+        font-family: Gill;
+        color: white;
+        text-align: left;
+        float: right;
+        margin-bottom: 15px;
+      }
+      .teal-text {
+        width: 140px;
+        height: 78px;
+        color: #3bceab;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+      }
+    }
+  }
+}

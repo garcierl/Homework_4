@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.modal {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+.hero-text {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.hero-text h1 {
+  padding-top: 50px;
+  text-align: center;
+  font-family: PTSerif-Regular;
+  font-size: 40px;
+  color: white;
+}
+.hero-text .hero-teal {
+  font-size: 20px;
+  font-family: Gill;
+  font-style: italic;
+  color: #3bceab;
+  text-align: center;
+}
+.hero-text p {
+  width: 420px;
+  font-size: 20px;
+  font-family: Gill;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  margin-left: 420px;
+}
+.hero-text .lorem {
+  padding-top: 25px;
+}
+.hero-text button {
+  width: 121.62px;
+  height: 40.04px;
+  background-color: #3bceab;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 560px;
+  margin-top: 25px;
+  border-radius: 0px;
+  font-size: 15px;
+  font-family: Gill;
+}
+
+.paragraph {
+  width: 1280px;
+  height: 300px;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 75px;
+  margin-top: 75px;
+}
+
+.home-para {
+  width: 789px;
+  height: 90px;
+  text-align: left;
+  font-size: 15px;
+  font-family: "Gill";
+  color: #08ad69;
+  text-decoration: none;
+  font-style: italic;
+  margin-left: 200px;
+}
+
+.john {
+  font-size: 15px;
+  color: #3bceab;
+  font-family: PTSerif-Regular;
+  text-decoration: none;
+  margin-left: 200px;
+  margin-top: 45px;
+}
+
+.title-john {
+  font-size: 10px;
+  color: #a8a8a8;
+  font-family: PTSerif-Regular;
+  text-decoration: none;
+  margin-left: 200px;
+}
+
+.events {
+  width: 1280px;
+  min-height: 400px;
+  background-color: #540d6e;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.events .event-title {
+  height: 35px;
+  padding-left: 25px;
+  padding-top: 25px;
+  font-size: 25px;
+  font-family: "Gill";
+  color: white;
+}
+.events .event-title .border-bottom {
+  border-bottom: white solid 2px;
+  position: absolute;
+  width: 392px;
+  white-space: nowrap;
+}
+.events .dates {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1198px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.events .dates div {
+  width: 230px;
+  height: 80%;
+  position: relative;
+}
+.events .dates div p {
+  width: 140px;
+  height: 41px;
+  font-size: 15px;
+  font-family: Gill;
+  color: white;
+  text-align: left;
+  float: right;
+  margin-bottom: 15px;
+}
+.events .dates div .teal-text {
+  width: 140px;
+  height: 78px;
+  color: #3bceab;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.login-title {
+  font-size: 25px;
+  font-family: "Gill";
+  margin-left: 430px;
+  margin-top: 50px;
+}
+
+.login-border {
+  border-bottom: black solid 2px;
+  position: absolute;
+  width: 350px;
+  white-space: nowrap;
+}
+
+.login-info {
+  margin-left: 380px;
+  margin-top: 25px;
+  width: 1100px;
+}
+
+.name {
+  margin-top: 90px;
+}
+
+.text-boxes {
+  margin-top: 50px;
+  right: 25px;
+}
+
+.message {
+  width: 529px;
+  height: 199px;
+  border: none;
+  left: 0;
+  top: 0;
+}
+
+input {
+  display: block;
+  margin-top: 50px;
+  margin-left: 21px;
+  padding-left: 21px;
+  width: 529px;
+  height: 60px;
+  background-color: #f5f5f5;
+  border: 0;
+}
+
+#submit {
+  width: 100px;
+  height: 40.04px;
+  background-color: #3bceab;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 21px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  border-radius: 0px;
+  font-size: 15px;
+  font-family: Gill;
+}
+
+.modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bg-click {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.callout {
+  position: relative;
+  z-index: 99;
+  width: 600px;
+  height: 400px;
+  background-color: white;
+}
+
+nav {
+  min-height: 50px;
+  background-color: #3bceab;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+@media (max-width: 1000px) {
+  nav {
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.hero {
+  width: 1280px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url(../images/teal.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+footer {
+  width: 1280px;
+  height: 455px;
+  background-color: #3bceab;
+  margin: 0 auto;
+  text-align: center;
+}
+footer .footer-content {
+  padding-top: 36px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footer-content .footer-logo {
+  font-size: 50px;
+  color: white;
+  padding-top: 36px;
+  margin-bottom: 36px;
+}
+footer .footer-content .footer-info {
+  margin-bottom: 26px;
+  color: white;
+}
+footer .footer-content .footer-message {
+  width: 696px;
+  height: 60px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .footer-content .footer-message input {
+  width: 529px;
+  height: 100%;
+  background-color: #3bceab;
+  padding-left: 23px;
+}
+footer .footer-content .footer-message input::-webkit-input-placeholder {
+  color: white;
+  font-size: 16px;
+  font-family: Gill;
+  opacity: 50%;
+}
+footer .footer-content .footer-message input::-moz-placeholder {
+  color: white;
+  font-size: 16px;
+  font-family: Gill;
+  opacity: 50%;
+}
+footer .footer-content .footer-message input:-ms-input-placeholder {
+  color: white;
+  font-size: 16px;
+  font-family: Gill;
+  opacity: 50%;
+}
+footer .footer-content .footer-message input::-ms-input-placeholder {
+  color: white;
+  font-size: 16px;
+  font-family: Gill;
+  opacity: 50%;
+}
+footer .footer-content .footer-message input::placeholder {
+  color: white;
+  font-size: 16px;
+  font-family: Gill;
+  opacity: 50%;
+}
+footer .footer-content .footer-message button {
+  width: 167px;
+  height: 100%;
+  color: #3bceab;
+  background-color: white;
+  border: none;
+  margin-left: 260px;
+}
+footer .footer-content .social-media {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+  width: 156px;
+  height: 31.92px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 30px auto 26px auto;
+}
+footer .footer-content .social-media img {
+  width: 31.22px;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footer-content .copyright {
+  font-size: 12px;
+  font-family: Gill;
+  opacity: 50%;
+}

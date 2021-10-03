@@ -1,0 +1,65 @@
+footer {
+  width: 1280px;
+  height: 455px;
+  background-color: #3bceab;
+  margin: 0 auto;
+  text-align: center;
+  .footer-content {
+    padding-top: 36px;
+    align-items: center;
+    .footer-logo {
+      font-size: 50px;
+      color: white;
+      padding-top: 36px;
+      margin-bottom: 36px;
+    }
+    .footer-info {
+      margin-bottom: 26px;
+      color: white;
+    }
+    .footer-message {
+      width: 696px;
+      height: 60px;
+      margin: 0 auto;
+      display: flex;
+      input {
+        width: 529px;
+        height: 100%;
+        background-color: #3bceab;
+        padding-left: 23px;
+      }
+      input::placeholder {
+        color: white;
+        font-size: 16px;
+        font-family: Gill;
+        opacity: 50%;
+      }
+      button {
+        width: 167px;
+        height: 100%;
+        color: #3bceab;
+        background-color: white;
+        border: none;
+        margin-left: 260px;
+      }
+    }
+    .social-media {
+      filter: invert(100%);
+      width: 156px;
+      height: 31.92px;
+      display: flex;
+      justify-content: space-evenly;
+      margin: 30px auto 26px auto;
+      img {
+        width: 31.22px;
+        height: 100%;
+        align-items: center;
+      }
+    }
+    .copyright {
+      font-size: 12px;
+      font-family: Gill;
+      opacity: 50%;
+    }
+  }
+}
